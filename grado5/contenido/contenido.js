@@ -17,6 +17,7 @@ const contenido = [
     {
         tipo:"audio",
         src:"././imgP/AUD-20260430-WA0001.mp3",
+        titulo:"Presentacion"
     },
     {
         tipo:"imagen",
