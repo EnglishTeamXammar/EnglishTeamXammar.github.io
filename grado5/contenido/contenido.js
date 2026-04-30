@@ -25,7 +25,7 @@ const contenido = [
     },
 ];
 
-// 🔥 convertidor YouTube
+//convertidor YouTube
 function convertirYoutube(url) {
     if (url.includes("youtu.be")) {
         const id = url.split("/").pop();
@@ -41,26 +41,39 @@ function convertirYoutube(url) {
 }
 
 
-// 📦 contenedores (IMPORTANTE: coinciden con tu HTML)
+//contenedores (IMPORTANTE: coinciden con HTML)
 const contVideos = document.getElementById("videos");
+const contAudios = document.getElementById("audios");
 const contImagenes = document.getElementById("imagenes");
 const contTextos = document.getElementById("textos");
 
 
-// 🚀 render
+//render
 function renderContenido() {
 
     contVideos.innerHTML = "";
+    contAudios.innerHTML = "";
     contImagenes.innerHTML = "";
     contTextos.innerHTML = "";
 
     contenido.forEach(item => {
 
-        // 🎬 VIDEOS
+        //VIDEOS
         if (item.tipo === "video") {
             contVideos.innerHTML += `
                 <div class="card">
                     <iframe src="${convertirYoutube(item.src)}" frameborder="0" allowfullscreen></iframe>
+                    <p>${item.titulo}</p>
+                </div>
+            `;
+        }
+        //AUDIOS
+        if(item.tipo === "audio"){
+            contAudios.innerHTML += `
+                <div class="card>
+                    <audio controls>
+                        <source src="${item.src}"type="audio/mpeg">
+                    </audio>
                     <p>${item.titulo}</p>
                 </div>
             `;
