@@ -7,17 +7,17 @@ const contenido = [
     {
         tipo: "video",
         src: "https://youtu.be/jrIBc2sbm6M",
-        titulo: "Padre Nuestro en inglés"
+        titulo: "Padre Nuestro de lento a rapido a lento"
+    },
+    {
+        tipo:"video",
+        src:"https://youtu.be/5a-P8VfTw4s",
+        titulo:"Padre Nuestro"
     },
     {
         tipo: "video",
         src: "https://youtu.be/B-BnUl1IK9I",
         titulo: "Magic Words Song "
-    },
-    {
-        tipo: "video",
-        src: "https://youtu.be/nnB0sYRNzEw",
-        titulo: "Good Morning"
     },
     {
         tipo: "video",
