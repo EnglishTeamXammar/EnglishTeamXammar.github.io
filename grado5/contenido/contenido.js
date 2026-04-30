@@ -13,7 +13,7 @@ const contenido = [
         tipo:"video",
         src:"youtube.com/watch?v=kg2GrrYSgFM",
         titulo:"Cancion del abecedario"
-    }
+    },
     {
         tipo:"imagen",
         src:"https://english4kidsonline.com/wp-content/uploads/2023/01/los-pronombres-en-ingles-768x480.jpg",  
