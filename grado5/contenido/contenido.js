@@ -77,7 +77,7 @@ function renderContenido() {
             contAudios.innerHTML += `
                 <div class="card>
                     <audio controls>
-                        <source src="${item.src}"type="audio/mpeg">
+                        <source src="${item.src}"type="audio/mp3">
                     </audio>
                     <p>${item.titulo}</p>
                 </div>
