@@ -110,7 +110,7 @@ body {
     border-radius: 10px;
 }
 /* Audios */
-.card-contenido audio {
+.card-contenido source {
     width: 100%;
     border-radius: 10px;
 }
