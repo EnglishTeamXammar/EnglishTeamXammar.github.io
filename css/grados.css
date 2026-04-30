@@ -109,6 +109,11 @@ body {
     height: 150px;
     border-radius: 10px;
 }
+/* Audios */
+.card-contenido audio {
+    width: 100%;
+    border-radius: 10px;
+}
 
 /* Texto */
 .card-contenido p {
