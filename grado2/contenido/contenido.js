@@ -13,10 +13,10 @@ const contenido = [
         tipo:"video",
         src:"https://youtu.be/AS5nhKzaOqo?list=TLPQMzAwNDIwMjawuETMDimkGw",
         titulo:"School Supplies Vocabulary"
-    }
+    },
     {
         tipo:"video",
-        src:"https://youtu.be/5a-P8VfTw4s"
+        src:"https://youtu.be/5a-P8VfTw4s",
         titulo:"The Lord's Prayer"
     },
 
