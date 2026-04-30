@@ -11,7 +11,7 @@ const contenido = [
     },
     {
         tipo:"video",
-        src:"https://youtu.be/AS5nhKzaOqo?list=TLPQMzAwNDIwMjawuETMDimkGw",
+        src:"https://youtube.com/watch?v=AS5nhKzaOqo",
         titulo:"School Supplies Vocabulary"
     },
     {
