@@ -42,8 +42,8 @@ const contenido = [
     },
     {
         tipo:"video",
-        src:"https://www.youtube.com/watch?v=8ChQVaEAKsk",
-        titulo:"This Is My Face | Parts Of The Face Song!"
+        src:"https://youtu.be/8ChQVaEAKsk",
+        titulo:"This Is My Face - Parts Of The Face Song"
     },
 
     {
