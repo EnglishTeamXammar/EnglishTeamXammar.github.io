@@ -36,6 +36,11 @@ const contenido = [
         titulo:"Body Parts Song"
     },
     {
+        tipo:"video",
+        src:"https://www.youtube.com/watch?v=zxIpA5nF_LY",
+        titulo:"What's Your Favorite Color?"
+    },
+    {
         tipo:"imagen",
         src:"./img/image.png",  
         titulo:"local"

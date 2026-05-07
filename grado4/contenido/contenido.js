@@ -15,11 +15,10 @@ const contenido = [
         titulo: "Good Morning"
     },
     {
-        tipo:"imagen",
-        src:"https://english4kidsonline.com/wp-content/uploads/2023/01/los-pronombres-en-ingles-768x480.jpg",  
-        titulo:"web"
+        tipo:"video",
+        src:"https://www.youtube.com/watch?v=0SQHooigF7s",
+        titulo:"✏️📚 Classroom Commands Song"
     },
-
     {
         tipo: "texto",
         texto: "sin informacion de clases de ingles"

@@ -15,9 +15,9 @@ const contenido = [
         titulo:"Cancion del abecedario"
     },
     {
-        tipo:"audio",
-        src:"././imgP/AUD-20260430-WA0001.mp3",
-        titulo:"Presentacion"
+        tipo:"video",
+        src:"https://www.youtube.com/watch?v=D0Ajq682yrA",  
+        titulo:"Números canción 1 a 20"
     },
     {
         tipo:"imagen",
@@ -27,6 +27,11 @@ const contenido = [
     {
         tipo: "texto",
         texto: "sin informacion de clases de ingles"
+    },
+    {
+        tipo:"audio",
+        src:"./audios/presentacion.mp3",
+        titulo:"Presentacion"
     },
 ];
 
@@ -48,18 +53,18 @@ function convertirYoutube(url) {
 
 //contenedores (IMPORTANTE: coinciden con HTML)
 const contVideos = document.getElementById("videos");
-const contAudios = document.getElementById("audios");
 const contImagenes = document.getElementById("imagenes");
 const contTextos = document.getElementById("textos");
+const contAudios = document.getElementById("audios");
 
 
 //render
 function renderContenido() {
 
     contVideos.innerHTML = "";
-    contAudios.innerHTML = "";
     contImagenes.innerHTML = "";
     contTextos.innerHTML = "";
+    contAudios.innerHTML = "";
 
     contenido.forEach(item => {
 
@@ -72,17 +77,7 @@ function renderContenido() {
                 </div>
             `;
         }
-        //AUDIOS
-        if(item.tipo === "audio"){
-            contAudios.innerHTML += `
-                <div class="card>
-                    <audio controls>
-                        <source src="${item.src}"type="audio/mp3">
-                    </audio>
-                    <p>${item.titulo}</p>
-                </div>
-            `;
-        }
+        
 
         //IMÁGENES
         if (item.tipo === "imagen") {
@@ -99,6 +94,17 @@ function renderContenido() {
             contTextos.innerHTML += `
                 <div class="texto">
                     <p>${item.texto}</p>
+                </div>
+            `;
+        }
+        if (item.tipo === "audio") {
+            contAudios.innerHTML += `
+                <div class="card">
+                    <audio controls>
+                        <source src="${item.src}" type="audio/mpeg">
+                        Tu navegador no soporta audio.
+                    </audio>
+                    <p>${item.titulo}</p>
                 </div>
             `;
         }
