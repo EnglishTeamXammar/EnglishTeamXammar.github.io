@@ -180,6 +180,12 @@ const contenido = [
     },
     {
         tipo:"video",
+        src:"https://youtu.be/l7sHQUSp7Gc",
+        titulo:"Healthy Habits",
+        grado: 4,
+    },
+    {
+        tipo:"video",
         src:"https://www.youtube.com/watch?v=0SQHooigF7s",
         titulo:"✏️📚 Classroom Commands Song",
         grado: 4
