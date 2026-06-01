@@ -9,7 +9,7 @@ const contenido = [
         tipo:"video",
         src:"https://youtu.be/o7AJW-B2FRA",
         titulo:"Números en inglés del 1 al 20",
-        grado: 4,3,
+        grado: 4,
     },
     {
         tipo: "video",
