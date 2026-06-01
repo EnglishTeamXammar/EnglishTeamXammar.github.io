@@ -6,12 +6,6 @@ const contenido = [
         grado: 1
     },
     {
-        tipo:"video",
-        src:"https://youtu.be/o7AJW-B2FRA",
-        titulo:"Números en inglés del 1 al 20",
-        grado: 4,
-    },
-    {
         tipo: "video",
         src: "https://youtu.be/jrIBc2sbm6M",
         titulo: "Padre Nuestro de lento a rapido a lento",
@@ -177,6 +171,12 @@ const contenido = [
         src: "https://youtu.be/nnB0sYRNzEw",
         titulo: "Good Morning",
         grado: 4
+    },
+    {
+        tipo:"video",
+        src:"https://youtu.be/o7AJW-B2FRA",
+        titulo:"Números en inglés del 1 al 20",
+        grado: 4,
     },
     {
         tipo:"video",
